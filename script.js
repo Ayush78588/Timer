@@ -8,10 +8,11 @@ let count = document.getElementById('count');
 let s = 0, m = 0, h = 0, flag = 0, c = 0;
 function checkTime(x) {
     if (x < 10) {
-        return "0" + x;
+        return "0" + x;   
     }
     else {
-        return x;
+        console.log(x);
+        return x;    
     }
 }
 function stopwatch() {
